@@ -1,0 +1,26 @@
+.button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 6px;
+    background: #7b8fa3;
+    color: #1a1a2e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.button:hover:not(:disabled) {
+    background: #4dd0e1;
+    box-shadow: 0 0 12px #4dd0e1;
+}
+
+.button:active:not(:disabled) {
+    transform: scale(0.97);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

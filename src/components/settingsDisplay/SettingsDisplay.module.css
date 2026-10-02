@@ -1,0 +1,46 @@
+.settingsDisplay {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    border: 2px solid #4dd0e1;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.label {
+    color: #4dd0e1;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+    width: 100px;
+    height: 32px;
+    padding: 4px 8px;
+    border: 1px solid #4dd0e1;
+    border-radius: 4px;
+    background: #fff;
+    color: #1a1a2e;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border-color: #00d9ff;
+    box-shadow: 0 0 8px #00d9ff;
+}
+
+.inputError {
+    border-color: #ff5252;
+    box-shadow: 0 0 8px #ff5252;
+}

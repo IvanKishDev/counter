@@ -1,0 +1,11 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #4dd0e1;
+    border-radius: 10px;
+    background: #1a1a2e;
+    box-sizing: border-box;
+    width: 25%;
+}

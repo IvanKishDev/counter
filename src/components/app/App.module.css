@@ -1,0 +1,10 @@
+.App {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    min-height: 100vh;
+    background: #1a1a2e;
+    box-sizing: border-box;
+}
